@@ -5,6 +5,7 @@ import { Models } from "appwrite";
 import { useGetRecentPosts, useGetUsers } from "@/lib/react-query/queriesAndMutations";
 import Loader from "@/components/shared/Loader";
 import PostCard from "@/components/shared/PostCard";
+import UserCard from "@/components/shared/UserCard";
 
 const Home = () => {
   // const { toast } = useToast();
