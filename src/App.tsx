@@ -7,6 +7,7 @@ import './globals.css';
 import AuthLayout from "./_auth/AuthLayout";
 import RootLayout from "./_root/RootLayout";
 import { Toaster } from "@/components/ui/toaster"
+import Bets from "./_root/pages/Bets";
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
                <Route path="/posts/:id" element={<PostDetails />} />
                <Route path="/profile/:id/*" element={<Profile />} />
                <Route path="/update-profile/:id" element={<UpdateProfile />} />
+               <Route path="/bets" element={<Bets />} />
             </Route>
 
         </Routes>

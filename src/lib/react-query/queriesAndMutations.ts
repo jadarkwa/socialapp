@@ -14,6 +14,7 @@ import {
    getInfinitePosts,
    getPostById,
    getRecentPosts,
+   getUserById,
    getUserPosts,
    getUsers,
    likePost,
@@ -22,6 +23,7 @@ import {
    signInAccount,
    signOutAccount,
    updatePost,
+   updateUser,
 } from "../appwrite/api";
 
 import { INewPost, INewUser, IUpdatePost, IUpdateUser } from "@/types";

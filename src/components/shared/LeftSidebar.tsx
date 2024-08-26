@@ -30,10 +30,10 @@ const LeftSidebar = () => {
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/icons/betlogo.svg"
             alt="logo"
-            width={170}
-            height={36}
+            width={100}
+            height={100}
           />
         </Link>
 
@@ -59,7 +59,7 @@ const LeftSidebar = () => {
               <li
                 key={link.label}
                 className={`leftsidebar-link group ${
-                  isActive && "bg-primary-500"
+                  isActive ? "bg-yellow-500" : "hover:bg-yellow-500"
                 }`}>
                 <NavLink
                   to={link.route}
